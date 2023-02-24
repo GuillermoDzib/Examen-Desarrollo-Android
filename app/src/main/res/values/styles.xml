@@ -1,0 +1,9 @@
+<resources >
+<style name="FilledBox">
+
+    <item name="android:textColorHint">@color/white</item>
+    <item name="colorControlNormal">#FFFFFF</item>
+    <item name="colorControlActivated">#FFFFFF</item>
+    <item name="android:textColorHighlight">#FFFFFF</item>
+</style>
+</resources>
