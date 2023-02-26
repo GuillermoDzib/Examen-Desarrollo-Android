@@ -6,7 +6,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
+import androidx.coordinatorlayout.widget.CoordinatorLayout
 import com.example.examendesarrolloandroid.R
+import com.google.android.material.appbar.AppBarLayout
 
 class LoginFragment : Fragment() {
 
@@ -16,10 +19,13 @@ class LoginFragment : Fragment() {
 
     private lateinit var viewModel: LoginViewModel
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
+
         return inflater.inflate(R.layout.fragment_login, container, false)
     }
 

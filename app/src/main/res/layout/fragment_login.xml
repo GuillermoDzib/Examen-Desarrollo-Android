@@ -166,43 +166,6 @@
             android:drawableTop="@color/white"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!--    <EditText-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="48dp"-->
-<!--        android:backgroundTint="@color/white"-->
-<!--        android:hint="@string/password"-->
-<!--        android:inputType="textPassword"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:textColorHint="@color/white"-->
-<!--        android:textSize="18sp"-->
-<!--        app:layout_constraintEnd_toEndOf="@id/g_v_.8"-->
-<!--        app:layout_constraintStart_toStartOf="@id/g_v_.2"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/tv_Password"-->
-<!--        />-->
-
-<!--        <Button-->
-<!--            android:layout_width="150dp"-->
-<!--            android:layout_height="45dp"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintBottom_toBottomOf="parent"-->
-<!--            android:layout_marginBottom="100dp"-->
-<!--            android:text="@string/login"-->
-<!--            android:background="@drawable/style_button"-->
-<!--            android:backgroundTint="@color/white"-->
-<!--            />-->
-<!--    <Button-->
-<!--        android:id="@+id/btn_Login"-->
-<!--        android:layout_width="150dp"-->
-<!--        android:layout_height="48dp"-->
-<!--        android:layout_marginBottom="100dp"-->
-<!--        android:background="@drawable/enter_btn"-->
-<!--        android:backgroundTint="@color/transparente"-->
-<!--        android:text="@string/login"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        android:textColorHighlight="@color/white"/>-->
         <Button
             android:layout_marginBottom="50dp"
             android:layout_width="170dp"
@@ -216,26 +179,6 @@
             app:layout_constraintStart_toStartOf="parent"
             />
 
-<!--    <com.google.android.material.textfield.TextInputLayout-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:hint="@string/email"-->
-<!--        android:textColorHint="@color/white"-->
-<!--        app:layout_constraintEnd_toEndOf="@id/g_v_.8"-->
-<!--        app:layout_constraintStart_toStartOf="@id/g_v_.2"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/tv_Email">-->
-
-<!--        <com.google.android.material.textfield.TextInputEditText-->
-<!--            android:id="@+id/mi_email"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="35dp"-->
-<!--            android:backgroundTint="#03FFFFFF"-->
-<!--            android:inputType="textEmailAddress"-->
-<!--            android:textColor="#FFFFFF"-->
-<!--            android:textSize="16sp"-->
-<!--            />-->
-
-<!--    </com.google.android.material.textfield.TextInputLayout>-->
 
 
 
