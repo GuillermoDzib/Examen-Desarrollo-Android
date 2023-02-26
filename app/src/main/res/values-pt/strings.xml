@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Examen Desarrollo Android</string>
+    <string name="login_rank">Admin</string>
+    <string name="language">Idioma</string>
+    <string name="email">Correio electrónico</string>
+    <string name="password">Palabra-passe</string>
+    <string name="login">início de sessão</string>
+    <string name="navigation_drawer_open">"Gaveta de navegação aberta "</string>
+    <string name="navigation_drawer_close">Gaveta de navegação fechada</string>
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+    <string name="action_settings">Configurações</string>
+    <string name="menu_home">Início</string>
     <string name="menu_gallery">Galeria</string>
 </resources>
