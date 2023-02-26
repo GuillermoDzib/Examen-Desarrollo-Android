@@ -19,8 +19,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/white"
             app:popupTheme="@style/Theme.ExamenDesarrolloAndroid.PopupOverlay"
-            android:visibility="gone"/>
-
+            android:visibility="visible"/>
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />
