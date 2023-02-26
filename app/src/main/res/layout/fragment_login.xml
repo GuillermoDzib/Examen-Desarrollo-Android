@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,9 +23,9 @@
         android:layout_height="match_parent"/>
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/g_h_.35"
+        android:id="@+id/g_h_.25"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent=".35"
+        app:layout_constraintGuide_percent=".25"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
@@ -33,7 +34,7 @@
         android:src="@drawable/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@id/g_h_.35"
+        app:layout_constraintBottom_toBottomOf="@id/g_h_.25"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -125,26 +126,59 @@
         android:id="@+id/tv_Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/email"
+        android:text="@string/password"
         app:layout_constraintStart_toStartOf="@id/g_v_.2"
         app:layout_constraintTop_toBottomOf="@id/et_Email"
         android:textSize="18sp"
         android:textColor="@color/white"
         android:layout_marginTop="15dp"/>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_Password"
         android:layout_width="0dp"
-        android:layout_height="48dp"
-        android:backgroundTint="@color/white"
-        android:hint="@string/password"
-        android:inputType="textPassword"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:textSize="18sp"
+        android:layout_height="52dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@id/g_v_.8"
         app:layout_constraintStart_toStartOf="@id/g_v_.2"
         app:layout_constraintTop_toBottomOf="@id/tv_Password"
-        />
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/white"
+        android:hint="@string/password"
+        app:hintEnabled="true"
+        app:boxBackgroundMode="filled"
+        android:backgroundTint="#FFFFFF"
+        app:boxBackgroundColor="#FFFFFF">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/transparente"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHighlight="#009688"
+            android:textColorHint="#FBF9F9"
+            android:textCursorDrawable="@color/white"
+            android:textSize="18sp"
+            android:textColorLink="@color/white"
+            android:cursorVisible="true"
+            android:drawableTop="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <EditText-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:hint="@string/password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textColorHint="@color/white"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/g_v_.8"-->
+<!--        app:layout_constraintStart_toStartOf="@id/g_v_.2"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tv_Password"-->
+<!--        />-->
 
 <!--        <Button-->
 <!--            android:layout_width="150dp"-->
@@ -157,17 +191,30 @@
 <!--            android:background="@drawable/style_button"-->
 <!--            android:backgroundTint="@color/white"-->
 <!--            />-->
-    <Button
-        android:id="@+id/btn_Login"
-        android:layout_width="150dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="100dp"
-        android:background="@drawable/enter_btn"
-        android:backgroundTint="@color/white"
-        android:text="@string/login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+<!--    <Button-->
+<!--        android:id="@+id/btn_Login"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:background="@drawable/enter_btn"-->
+<!--        android:backgroundTint="@color/transparente"-->
+<!--        android:text="@string/login"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:textColorHighlight="@color/white"/>-->
+        <Button
+            android:layout_marginBottom="50dp"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:id="@+id/btn_Login"
+            android:text="@string/login"
+            android:background="@drawable/style_button"
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
 
 <!--    <com.google.android.material.textfield.TextInputLayout-->
 <!--        android:layout_width="0dp"-->
